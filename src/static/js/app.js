@@ -3,6 +3,13 @@ function App() {
     return (
         <Container>
             <Row>
+                <Col>
+                    <header style={{textAlign: 'center', margin: '20px 0'}}>
+                        <h1>ToDo App by Yuki Makino</h1>
+                    </header>
+                </Col>
+            </Row>
+            <Row>
                 <Col md={{ offset: 3, span: 6 }}>
                     <TodoListCard />
                 </Col>
